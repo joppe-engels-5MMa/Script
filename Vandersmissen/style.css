@@ -1,0 +1,18 @@
+/* this will center text/inline content in a block */
+h2{
+    text-align: center;
+}
+/*widht smaller than 100% gives us margin we can automaticcaly devide in two --> center the element.*/
+section p {
+    width: 50%;
+    background-color: aquamarine;
+    margin: auto;
+}
+/*center a block element horizontal and vertical inside container element*/
+article {
+height: 40vh;
+width: 50%;
+margin: auto;
+background-color: bisque;
+display: ;
+}

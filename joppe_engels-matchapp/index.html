@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Match App</title>
+    <meta name="description" content="HTML Match App">
+    <style>
+        body{
+            background-color:cadetblue;
+            color: darkblue;
+        }
+        header{
+            background-color: blueviolet;
+        }
+        p{
+            color: brown;
+        }
+        section{
+            background-color: coral;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Zotte Zenz Pasjes</h1>
+        <nav>
+            <ul>
+                <li><a href="#intro">Intrdocutie</a></li>
+                <li><a href="#lijstjes">Lijstjes</a></li>
+                <li><a href="#formulier">Formulier</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <h2>Introductie</h2>
+            <img src="images/ballerina.jpg" alt="Foto van Zenz" width="200px">
+            <p>Klik <a href="https://www.shutterstock.com/nl/video/clip-11475095-chubby-man-tutu-ballet-dancing">hier</a> voor meer foto's van Zenz zijn danstalent.</p>
+        </section>
+        <section id="lijstjes">
+            <h2 style="color:lawngreen ;">Lijstjes</h2>
+            <h3 style="color: darkgreen;"> De beste moves van Zenz:</h3>
+            <ul>
+                <li>Pirouette</li>
+                <li>Ratslag</li>
+                <li>Twerken</li>
+            </ul>
+            <h3 style="color: darkgreen;"> Moves die Zenz nog niet onder de knie heeft:</h3>
+            <ol>
+                <li> De robot</li>
+                <li> De conga</li>
+                <li> Een lift</li>
+            </ol>
+        </section>
+        <section id="formulier">
+            <form action="">
+                <fieldset>
+                    <legend>
+                        De dansschoenen van Zenz zijn...
+                    </legend>
+                    <input type="radio" name="schoenen" value="Grijs"> Grijze schoenen
+                    <input type="radio" name="schoenen" value="Roos"> Roze schoenen
+                    <input type="radio" name="schoenen" value="Groen"> Groene schoenen
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Wat heeft hij allemaal aan?
+                    </legend>
+                    <input type="Checkbox" name="kleren" value="Hemdje">Hij draagt een hemdje
+                    <input type="Checkbox" name="kleren" value="Trui">Hij draaft een trui
+                    <input type="Checkbox" name="kleren" value="Rokje">Hij draagt een rokje
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Commentaar
+                    </legend>
+                    <textarea name="" id="" cols="20" rows="4">
+    </textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Leeftijd
+                    </legend>
+                    <input type="number" name="" id="" min="1" max="150">
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Hoe heeft u van ons gehoord?
+                    </legend>
+                    <select name="" id="">
+                        <option value="Vrienden">
+                            Via Vrienden
+                        </option>
+                        <option value="Ads">
+                            Advertentie
+                        </option>
+                        <option value="Tsm">
+                            Via TSM 
+                        </option>
+                    </select>
+                </fieldset>
+                <button type="submit">
+                    Indienen
+                </button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+    </main>
+    <footer> </footer>
+</body>
+
+</html>

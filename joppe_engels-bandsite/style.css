@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(86, 96, 7);
+    }
+    header{
+        background-color:darkolivegreen;
+        color: rgb(26, 84, 31);
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size:larger;
+        text-align: center;
+    }
+    nav li{
+        display:inline-block;
+    }
+    #informatie{
+        background-color: darkolivegreen;
+    }
+    #merch{
+        background-color:darkolivegreen;
+    }
+    #awards{
+        background-image: url(images/awards.jpg);
+        background-size: contain;
+        background-repeat: 	no-repeat;
+        background-position: right;
+    }
+      nav a {
+        background-color: blanchedalmond;
+        display: block;
+        color: rgb(63, 4, 91);  
+        padding: 20px;
+      }
+      nav a:hover{
+        background-color: rgb(1, 126, 51);
+      }
+section {
+background-color:rgb(155, 155, 83);
+ padding: 20px;
+ margin:1%;
+
+}
+section p{
+    max-width:fit-content;
+}
