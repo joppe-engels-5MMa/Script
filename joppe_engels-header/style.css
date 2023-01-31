@@ -1,0 +1,50 @@
+/*instellingen vormgeving*/
+
+body {
+    background-color: rgb(220, 144, 13);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 125%;
+    line-height: 1.5;
+}
+
+/*vormgeving classes*/
+
+.flex-container{
+    display: flex;
+}
+
+header img{
+   
+    width: 5rem;
+}
+header nav li{
+    display: inline-block;
+    padding: 20px;
+   
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+header{
+    background-color: rgba(21, 152, 175, 0.604);
+    padding: 5px;
+}
+header i{
+color: rgb(0, 0, 0);
+}
+a{
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    background-color: rgb(7, 55, 39);
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
