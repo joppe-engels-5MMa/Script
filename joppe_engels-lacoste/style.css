@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: rgb(255, 157, 0);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
     font-size: 20px;
@@ -19,7 +19,7 @@ a {
 }
 
 p {
-    background-color: white;
+    background-color: rgb(255, 157, 0);
     text-align: center;
     color: black;
     font-size: medium;
@@ -29,10 +29,12 @@ p {
 /* hoofding */
 
 header {
-    background-color: rgb(241, 36, 36);
+    background-color: rgb(3, 162, 6);
     padding: 20px;
 }
-
+#ho p {
+    background-color: rgb(255, 157, 0);
+}
 header img {
     width: 120px;
 }
@@ -44,7 +46,7 @@ header nav li {
 
 header nav a:hover {
     text-decoration-line: none;
-    background-color: black;
+    background-color: rgb(255, 157, 0);
 }
 
 i {
@@ -72,7 +74,7 @@ video {
 button {
     width: 12rem;
     height: 5rem;
-    background-color: rgb(241, 36, 36);
+    background-color: rgb(3, 162, 6);
     color: white;
     border-color: black;
     border-width: 3px;
@@ -80,7 +82,7 @@ button {
 }
 
 h2 {
-    color: rgb(241, 36, 36);
+    color: rgb(3, 162, 6);
     padding: 5%;
     text-align: center;
     text-decoration: underline;
