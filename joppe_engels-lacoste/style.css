@@ -117,3 +117,52 @@ h2 {
 .flex-item img {
     width: 100%;
 }
+footer {
+
+    padding: 20px;
+    background-color: black;
+    font-size: 15px;
+    color: rgb(3, 162, 6);
+  }
+  
+  footer li {
+    list-style: none;
+    color: white;
+  }
+  
+  footer li:first-child {
+    color: rgb(3, 162, 6);
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .socialmedia :hover {
+    align-content: center;
+    margin-top: 5%;
+  }
+  
+  footer input[type="email"],
+  footer input[type="submit"] {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  footer input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: white;
+  }
+  
+  footer input[type="submit"] {
+    background-color: rgb(3, 162, 6);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
