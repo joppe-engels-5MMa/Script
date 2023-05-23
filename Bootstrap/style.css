@@ -1,0 +1,158 @@
+body{
+    background-image: url(images/background.png);
+    color: rgb(0, 0, 0) !important;
+}
+
+.navbar{    
+    --bs-navbar-active-color: rgba(0, 0, 0, 0.9) !important;
+    --bs-navbar-brand-color: rgba(0, 0, 0, 0.9) !important;
+    --bs-navbar-brand-hover-color: rgba(0, 255, 38, 0.9) !important;
+    --bs-navbar-color: rgba(54, 54, 54, 0.9) !important;
+    --bs-navbar-hover-color: rgba(0, 255, 38, 0.9   ) !important;
+}
+
+.btn-outline-success {
+    color: rgb(0, 0, 0) !important;
+    --bs-btn-hover-bg: #000000 !important;
+}
+
+.col img {
+    height: 200px;
+    width: 300px;
+}
+
+.navbar-brand {
+    font-size: 30px !important;
+}
+
+.nav-link {
+    font-size: 23px !important;
+}
+
+.row{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+   
+}
+footer {
+    background-color: rgb(59, 59, 59);
+    padding: 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+   
+  
+  .left-column {
+    flex-basis: 200px;
+  }
+  
+  
+  
+  .middle-column {
+    flex-basis: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  
+  .social-icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+    color: white;
+    align-items: center;
+    line-height: 30px;
+  }
+   
+  
+  .social-icon:hover {
+    color: #2cff07;
+    transform: scale(1.3);
+  }
+   
+  
+  .right-column {
+    flex-basis: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+   
+  
+  .column p {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    margin-right: 30px;
+  }
+   
+  
+  .column p:hover {
+    color: rgb(0, 190, 0);
+  }
+   
+  
+  .bottom-row {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+  }
+  #act {
+    background-color: black;
+    padding-top: 50px;
+  }
+  
+  #act img{
+    width: 100%;
+  }
+  
+  #act .grid-container {
+    background-color: #00ad1a;
+    grid-template-columns: 2fr 0.4fr 2fr;
+    padding: 50px;
+  }
+  
+  #act .social-icon i {
+    justify-content: flex-end;
+    color: hsl(0, 0%, 0%);
+  }
+  
+  #act .social-icon:hover i {
+    transform: scale(1.3);
+  }
+  
+  #act .social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60%;
+    margin-left: 105%;
+  }
+  
+  #act .social-icon {
+    margin-bottom: 30px;
+  }
+  
+  #act h1 {
+    margin-left: 20%;
+    color: #000000;
+  }
+  
+  #act p {
+    margin-left: 20%;
+    margin-top: 6%;
+    font-size: 14px;
+    text-align: justify;
+    color: #000000;
+  }
+  
+  #act .video {
+     background-color: black;
+     padding-left: 6.7%;
+     padding-top: 50px;
+     padding-bottom: 70px;
+  }
+  
